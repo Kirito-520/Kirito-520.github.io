@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Kirito-520.github.io</id>
     <title>Gridea</title>
-    <updated>2020-07-27T12:08:50.804Z</updated>
+    <updated>2020-07-27T12:37:12.895Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Kirito-520.github.io"/>
     <link rel="self" href="https://Kirito-520.github.io/atom.xml"/>
@@ -90,8 +90,17 @@
 </tbody>
 </table>
 <h2 id="显卡参数">显卡参数</h2>
-<p>显存：如果要把整个显卡要处理的图像任务比作一叠文件的话，显存就是处理文件是所用的办工桌，<br>
-它的体积越大肯定也能放下越多的文件处理</p>
+<p>首先把显卡当做是一个港口</p>
+<ul>
+<li>显存位宽：就是港口码头的宽度，宽度越大就越能容纳越多的船只同时进出。说白就是<br>
+瞬间处理数据的能力</li>
+<li>频率：理解为船只的速度，速度越快，港口就可以在更短时间<br>
+内处理更多的货物。</li>
+<li>流处理器：可以理解为码头的装卸工人或者装卸设备，装卸工人或者装卸设备越多，货物装卸的速度就越快，相应的显卡就越好</li>
+<li>显存容量就相当于港口的临时仓库，可能有些人会问，为什么是临时仓库而不是永久仓库？其实显卡的作用就是不断把最新的画面在屏幕上展示出来就完事了，已经展示过的画面，就可以直接丢掉了，所以我们只需要临时仓库，不需要永久性仓库。临时仓库的大小，表示整个港口可以同时完成货物装卸的能力大小。</li>
+<li>架构可以理解为整个港口的整体布局，怎么可以让货物在最短的时间内到达相应的位置，这些都需要科学合理的布局才能进步。所以每一代新显卡的发布几乎都会更新一次架构，带来性能上的提升。</li>
+</ul>
+<p>参考连接：<a href="https://www.bilibili.com/video/BV1V4411m7Y5?from=search&amp;seid=3193680921370364110">B站</a>  <a href="https://www.zhihu.com/search?type=content&amp;q=%E6%98%BE%E5%8D%A1%E5%8F%82%E6%95%B0%E7%A7%91%E6%99%AE">知乎</a></p>
 ]]></content>
     </entry>
     <entry>
