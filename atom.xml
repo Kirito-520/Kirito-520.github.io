@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Kirito-520.github.io</id>
     <title>Gridea</title>
-    <updated>2020-08-17T12:15:06.604Z</updated>
+    <updated>2020-08-18T02:28:17.453Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Kirito-520.github.io"/>
     <link rel="self" href="https://Kirito-520.github.io/atom.xml"/>
@@ -32,8 +32,79 @@ c = [1,2,3,4,5,6,7]<br>
 元祖() 一旦定义就不能改变，如：f=(1,2,3)<br>
 3.字典{ }</li>
 <li>字典里存放着{键：值，键：值，键：值} n个键值对<br>
-如：&quot;&quot;&quot;dic={1:&quot;123&quot;,“name&quot;:zhangsan,&quot;height&quot;:180}&quot;&quot;&quot;</li>
+如：<code>dic={1:&quot;123&quot;,“name&quot;:zhangsan,&quot;height&quot;:180}</code></li>
+<li>用字典名【键】索引字典中的值<br>
+dic【“name”】表示字典dic中键“name”对应的值为zhangsan</li>
+<li>修改：字典名【键】= 新值</li>
+<li>删除： del 字典名【键】</li>
+<li>插入：字典名【新键】=新值</li>
 </ul>
+<hr>
+<p>4.条件语句</p>
+<ul>
+<li>if 条件成立：<br>
+执行任务</li>
+<li>if 条件1成立：<br>
+else:<br>
+执行任务2</li>
+<li>if 条件1成立：<br>
+执行任务1<br>
+elif 条件2成立：<br>
+执行任务2<br>
+elif 条件n成立：<br>
+执行任务n<br>
+else：<br>
+执行任务n+1</li>
+</ul>
+<ol start="5">
+<li>循环语句<br>
+for 变量  in range(开始值，结束值)：<br>
+执行某些任务<br>
+for  变量 in 列表名:<br>
+执行某些任务<br>
+while 条件：<br>
+执行某些任务<br>
+终止循环用break</li>
+</ol>
+<hr>
+<p>turtle模块<br>
+import turtle # 导入turtle模块<br>
+t = turtle.Pen() # 用turtle模块的Pen类，实例化一个叫做t的对象<br>
+t.forward(像素点) # 让t 向前走多少个像素点<br>
+t.backward（像素点）# 让t向后走多少个像素点<br>
+t.left(角度) # 让t左转多少个角度<br>
+t.right(角度) #让t右转多少角度<br>
+t.reset() #让t复位</p>
+<hr>
+<p>6.函数与模块<br>
+函数：执行某些操作的一段代码<br>
+定义函数： def 函数名（参数表）：<br>
+函数体<br>
+使用函数： 函数名（参数表）</p>
+<ul>
+<li>模块 ：函数的集合，先导入，再使用，用模块.函数名调用</li>
+<li>包：包含多个模块</li>
+</ul>
+<hr>
+<p>7.类 对象 面向对象<br>
+类：物以类聚人以群分，是函数的集合，可实例化对象的模具<br>
+实例化：对象=类() 如：t = turtle.Pen()<br>
+对象：是类实例化出的实体，对象实实在在存在，完成具体工作。<br>
+面向对象：程序员反复修改优化类，类实例化对象，对象调用类里的函数执行具体操作。<br>
+类的定义：首字母要大写<br>
+class 类名（父亲名）：<br>
+pass<br>
+对象调用类里的函数，用<strong>对象.函数名</strong><br>
+对象调用类里的变量，用<strong>对象.变量名</strong><br>
+类内定义函数时，如调用自身或父类的函数与变量，必须用self.引导 ，应写为 <strong>self.函数名</strong>或者<strong>self.变量名</strong><br>
+8. 文件写操作  import pickle<br>
+开：文件变量 = open(&quot; 文件路径文件名”，&quot;wb&quot;)<br>
+存：pickle.dump(待写入的变量，文件变量)<br>
+关：文件变量.close()<br>
+文件读操作 import pickle<br>
+开：文件变量 = open(&quot; 文件路径文件名”，&quot;rb&quot;)<br>
+存：放内容的变量=pickle.load(文件变量)<br>
+关：文件变量.close(()</p>
 ]]></content>
     </entry>
     <entry>
